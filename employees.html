@@ -1,14 +1,65 @@
-<header>
-    <h1>Paul and Jeremy Autos Database</h1>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees</title>
+</head>
 <body>
+    <header>
+        <h1>Paul and Jeremy Autos Database</h1>
+    </header>
     <nav>
         <a href="index.html">Cars</a>
         <a href="customers.html">Customers</a>
         <a href="employees.html">Employees</a>
         <a href="transactions.html">Transactions</a>
-        <a href="transactdeet.html">Transaction Details</a>
+        <a href="transaction_details.html">Transaction Details</a>
     </nav>
     
     <h2>Browse Employees</h2>
+    <table border="1" cellspacing="5">
+        <tbody>
+            <tr>
+                <th>Employee ID</th>
+                <th>Name</th>
+                <th>Email Address</th>
+                <th>Phone Number</th>
+                <th>Modify</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Rasho Loe</td>
+                <td>ralo@email.com</td>
+                <td>293723</td>
+                <td>
+                    <a href="edit_employees.html">Edit</a>
+                    <a href="#" onclick="alert('Delete Data')">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Juda Ouk</td>
+                <td>judou@email.com</td>
+                <td>293747</td>
+                <td>
+                    <a href="edit_employees.html">Edit</a>
+                    <a href="#" onclick="alert('Delete Data')">Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lak Tuay</td>
+                <td>latu@email.com</td>
+                <td>293844</td>
+                <td>
+                    <a href="edit_employees.html">Edit</a>
+                    <a href="#" onclick="alert('Delete Data')">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="create_employees.html">Create Employee</a>
 </body>
+</html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Employees</title>
+    <title>Create Transaction Details</title>
 </head>
 <body>
     <header>
@@ -17,21 +17,28 @@
         <a href="transaction_details.html">Transaction Details</a>
     </nav>
 
-    <h2>Create Employees</h2>
+    <h2>Create Transaction Details</h2>
     <table>
         <tbody>
             <tr>
-                <th>Name</th>
-                <th>Email Address</th>
-                <th>Phone Number</th>
+                <th>Transaction ID</th>
+                <th>Car ID</th>
+                <th>Transaction Type</th>
+                <th>Unit Price</th>
             </tr>
             <tr>
                 <td><input type="text"></td>
-                <td><input type="email"></td>
                 <td><input type="text"></td>
                 <td>
-                    <a href="employees.html" onclick="alert('Create Data')">Create</a>
-                    <a href="employees.html" onclick="alert('Cancel Create Data')">Cancel</a>
+                    <select name="" id="">
+                        <option value="">Sale</option>
+                        <option value="">Lease</option>
+                    </select>
+                </td>
+                <td><input type="text"></td>
+                <td>
+                    <a href="transaction_details.html" onclick="alert('Create Data')">Create</a>
+                    <a href="transaction_details.html" onclick="alert('Cancel Create Data')">Cancel</a>
                 </td>
             </tr>
         </tbody>
