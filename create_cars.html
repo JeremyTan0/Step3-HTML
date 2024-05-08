@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Cars</title>
+</head>
+<body>
+    <header>
+        <h1>Paul and Jeremy Autos Database</h1>
+    </header>
+    <nav>
+        <a href="index.html">Cars</a>
+        <a href="customers.html">Customers</a>
+        <a href="employees.html">Employees</a>
+        <a href="transactions.html">Transactions</a>
+        <a href="transactdeet.html">Transaction Details</a>
+    </nav>
+
+    <h2>Create Cars</h2>
+    <table>
+        <tbody>
+            <tr>
+                <th>Car ID</th>
+                <th>Condition</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Model Year</th>
+                <th>Date Acquired</th>
+                <th>In Lot</th>
+                <th>Rented Out</th>
+                <th>Color</th>
+                <th>Acquired Price</th>
+            </tr>
+            <tr>
+                <td><input type="text"></td>
+                <td>
+                    <select name="condition" id="">
+                        <option value="1">Well-Used</option>
+                        <option value="2">Fair</option>
+                        <option value="3">Like New</option>
+                        <option value="4">Brand New</option>
+                    </select>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="date"></td>
+                <td>
+                    <select name="In Lot" id="">
+                        <option value="True">True</option>
+                        <option value="False">False</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="Rented Out" id="">
+                        <option value="True">True</option>
+                        <option value="False">False</option>
+                    </select>
+                </td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td>
+                    <a href="index.html" onclick="alert('Create Data')">Create</a>
+                    <a href="index.html" onclick="alert('Cancel Create Data')">Cancel</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
