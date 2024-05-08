@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transaction Details</title>
+    <title>Edit Transaction Types</title>
 </head>
 <body>
     <header>
         <h1>Paul and Jeremy Autos Database</h1>
     </header>
-
     <nav>
         <a href="index.html">Cars</a>
         <a href="customers.html">Customers</a>
@@ -19,34 +18,24 @@
         <a href="transaction_types.html">Transaction Types</a>
         <a href="car_conditions.html">Car Conditions</a>
     </nav>
-    
-    <h2>Browse Transaction 1's Details</h2>
-    <table border="1" cellspacing="5">
+
+    <h2>Edit Transaction Types</h2>
+    <table>
         <tbody>
             <tr>
-                <th>Transaction Details ID</th>
-                <th>Transaction ID</th>
-                <th>Car ID</th>
-                <th>Transaction Type</th>
-                <th>Unit Price</th>
-                <th>Actions</th>
+                <th>Transaction Types ID</th>
+                <th>Description</th>
             </tr>
             <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>2</td>
-                <td>Sale</td>
-                <td>$3,000</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
                 <td>
-                    <a href="edit_transaction_detail.html">Edit</a>
-                    <a href="transaction_details.html" onclick="alert('Delete Data')">Delete</a>
+                    <a href="transaction_types.html" onclick="alert('Edit Data')">Apply</a>
+                    <a href="transaction_types.html" onclick="alert('Cancel Edit')">Cancel</a>
                 </td>
             </tr>
         </tbody>
-
     </table>
 
-    <a href="transactions.html">Back</a>
-    
 </body>
 </html>
